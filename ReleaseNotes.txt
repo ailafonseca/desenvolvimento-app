@@ -1,0 +1,34 @@
+06/02/2022
+Inserida a função if_Site que testa o conteúdo passado com a variável que contém o site do navegador.
+Nessa verão está como 'Teste' e 'Fome' estão no loginForm.jsx
+
+Acrescentado o loginForm.jsx o teste do site.
+
+Alterado o conteúdo o Index.css e criado o fomedetudo.css
+Comentado os .css do index.js
+
+16/02/2021
+Corrigindo problema de produção
+
+0.2.5 - 08/11/2019
+Botão "sem anúncio" desalinhado
+Botão de excluir horário de contrato não funciona
+Sobreposição de select no anuncio
+
+0.2.4 - 26/10/2019
+Novos Menus e fluxos revisados
+Correções de erro no cadastro
+Adicionado botão de cancelar cadastro
+
+0.2.3 - 23/10/2019
+Tentantiva de correção do logout ir para cadastro.
+
+0.2.2 - 16/10/2019
+Funcionalidade: Tipo de contrato doação/venda, cadastro da outra parte
+Melhoria:
+Correção:
+
+0.2.0 - 08/10/2019
+Funcionalidade: Cadastro de novos clientes
+Melhora: Aumento da area do botão de +- das interações de quantidade de produto
+Correção: Abertura de tela de anuncio estava liberando o usuário mexer na tela antes mesmo de terminar de carregar os dados mínimos

@@ -1,0 +1,1 @@
+az storage blob upload-batch -d $web -s build\ --account-name sondadev --account-key RVMHCmRGVZCF4jhAOwIasV7SuqF1DBtGxfXfiaqTF1zv8vWvRmIE0wR9rEtqPCCB+iM2SBue3sr7Rpr6nHuG2w== --output json

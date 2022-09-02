@@ -1,0 +1,99 @@
+{
+  "name": "saveadd",
+  "version": "0.2.16.2",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.9.5",
+    "@typeform/embed-react": "^1.9.0",
+    "axios": "^0.21.2",
+    "bootstrap": "^4.6.0",
+    "browserslist": "^4.16.1",
+    "connected-react-router": "^6.4.0",
+    "emotion": "^10.0.27",
+    "env-cmd": "^9.0.3",
+    "formik": "^2.1.4",
+    "fuse.js": "^6.5.3",
+    "http-proxy-middleware": "^1.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^14.2.1",
+    "react-export-excel": "^0.5.3",
+    "react-google-tag-manager": "^2.2.1",
+    "react-maskedinput": "^4.0.1",
+    "react-number-format": "^4.4.4",
+    "react-redux": "^7.0.2",
+    "react-redux-toastr": "^7.6.5",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-select": "^2.4.3",
+    "react-spinners": "^0.8.0",
+    "react-swipeable-views": "^0.13.9",
+    "react-switch": "^6.0.0",
+    "react-test-renderer": "^16.9.0",
+    "react-typeform-embed": "^0.2.1",
+    "react-visibility-sensor": "^5.1.1",
+    "read-excel-file": "^4.0.4",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-multi": "^0.1.12",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "standard": "^14.3.4",
+    "styled-components": "^4.4.1",
+    "yenv": "^2.1.1",
+    "babel-jest": "24.7.1"
+  },
+  "scripts": {
+    "start": "npm run generate-build-version && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:development": "env-cmd .env.development npm run build",
+    "build:staging": "env-cmd .env.staging npm run build",
+    "build:production": "env-cmd .env.production npm run build",
+    "generate-build-version": "node generate-build-version",
+    "prebuild": "npm run generate-build-version",
+    "clear": "rm -Rf node_modules && npm install"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": {
+    "name": "Rúben Lício Reis",
+    "email": "rubenlr@gmail.com"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "fetch",
+      "FormData"
+    ]
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.17.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest-mock-axios": "^3.1.1"
+  }
+}
