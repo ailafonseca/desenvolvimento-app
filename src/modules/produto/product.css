@@ -1,0 +1,25 @@
+.action-buttons {
+  text-align: left;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.action-buttons .btn {
+  width: 100%;
+  display: block;
+}
+
+.MuiAppBar-root {
+  z-index: 2 !important;
+}
+
+@media (min-width: 576px) {
+  .action-buttons {
+    text-align: right;
+    display: block;
+    flex-direction: initial;
+  }
+  .action-buttons .btn {
+    width: auto;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,28 @@
+/* .search-bar-container {
+  position: relative;
+}
+.search-bar-container .search-icon-container {
+  position: absolute;
+  bottom: 0;
+} */
+
+.search-bar-container input {
+  flex-grow: 1;
+}
+
+.search-bar-container button {
+  flex-shrink: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .input-group.search-bar-container input {
+    width: 100% !important;
+    margin-bottom: 0.475em;
+  }
+
+  .input-group.search-bar-container button {
+    margin: 0px 2px;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+}

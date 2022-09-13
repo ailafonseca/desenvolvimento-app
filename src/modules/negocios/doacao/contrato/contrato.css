@@ -1,0 +1,68 @@
+.text-right {
+  text-align: right;
+}
+.margin {
+  margin-top: 10px;
+}
+.Card {
+  width: 100%;
+  height: 50px;
+}
+.va {
+  vertical-align: middle;
+}
+.button-circle {
+  margin: 5px;
+  margin-right: 15px;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 189, 176, 0.82);
+  position: relative;
+  border-width: 0px;
+}
+.button-circleRed {
+  margin: 5px;
+  margin-right: 15px;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(189, 0, 0, 0.82);
+  position: relative;
+  border-width: 0px;
+}
+.button-circleAtual {
+  margin: 5px;
+  margin-right: 15px;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(26, 23, 23, 0.82);
+  position: relative;
+  border-width: 0px;
+}
+.button-circle:focus {
+  background-color: #04867e;
+}
+.button-circleRed:focus {
+  background-color: rgb(107, 5, 5);
+}
+.selected {
+  font-size: 5px;
+}
+.botoes {
+  text-align: center;
+  flex-wrap: wrap;
+}
+.error {
+  color: red;
+}

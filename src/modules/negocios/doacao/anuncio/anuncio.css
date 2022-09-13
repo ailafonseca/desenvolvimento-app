@@ -1,0 +1,75 @@
+.table-separator {
+  /* border-bottom: 1px solid hsl(0,0%,80%); */
+  margin-bottom: 3rem;
+}
+.margin {
+  margin-top: 10px;
+}
+.react-numeric-input {
+  height: 38px;
+}
+.ou {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.react-numeric-input input {
+  height: 100%;
+}
+
+.product-line-table {
+  display: grid;
+  cursor: pointer;
+}
+
+.product-line-table.table-closed {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.product-line-table.table-opened {
+  border-bottom: 0 none;
+  padding-bottom: 0 !important;
+}
+
+.inside-table.table-closed {
+  display: none;
+}
+
+.inside-table.table-opened {
+  display: block;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.inside-table > td {
+  padding: 0;
+}
+
+.compressed-value {
+  font-size: 70%;
+  text-transform: lowercase;
+}
+
+.inside-table {
+  width: 100%;
+}
+
+.inside-table .input-group {
+  display: inline-block;
+}
+
+.table-striped .inside-table tbody tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: rgba(0, 169, 157, 0.2);
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.2rem 0.3rem 0 !important;
+}
+
+.product-table .btn {
+  line-height: 1;
+}

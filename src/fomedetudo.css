@@ -1,0 +1,52 @@
+.default-menu-item {
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 13px;
+  padding: 15px;
+  max-width: 15%;
+  text-align: center;
+  min-width: 9rem;
+  width: 100%;
+  max-width: 120px;
+  flex-wrap: nowrap;
+}
+
+.saveadd-primary-color {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+#main-logo {
+  margin: 0 auto 3rem;
+  display: block;
+  -moz-box-sizing: border-box;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #19191a;
+  border-color: #19191a;
+}
+
+.saveadd-secondary-color {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+saveadd-secondary-color {
+  background-color: #19191a !important;
+  color: #fff !important;
+}
+
+/* 
+'[Azul][Azul]
+'[verde][verde]
+'[preto][preto]
+'#5289C3 - Azul 
+'#00a3a9 - Verde cian
+'#19191a - Preto mais claro
+*/

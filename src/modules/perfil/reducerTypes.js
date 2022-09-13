@@ -1,0 +1,18 @@
+
+export default {
+  PERFIL:
+    {
+      SELECIONAR: {
+        DOACAO: {
+          DOADOR: 'PERFIL_SELECIONAR_DOACAO_DOADOR',
+          DONATARIO: 'PERFIL_SELECIONAR_DOACAO_DONATARIO'
+        },
+
+        VENDA: {
+          VENDEDOR: 'PERFIL_SELECIONAR_VENDA_VENDEDOR',
+          COMPRADOR: 'PERFIL_SELECIONAR_VENDA_COMPRADOR'
+        },
+        LIMPAR: 'PERFIL_SELECIONAR_LIMPAR'
+      }
+    }
+}

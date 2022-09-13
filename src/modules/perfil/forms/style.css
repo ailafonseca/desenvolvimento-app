@@ -1,0 +1,7 @@
+.profile-typeform {
+  width: 100%;
+  top: 68px;
+  /* height: 81%; */
+  height: calc(100vh - 68px - 60px);
+  position: absolute;
+}

@@ -1,0 +1,12 @@
+.inputSemControles b {
+  display: none;
+}
+.accordion {
+  margin-bottom: 10px;
+}
+.align {
+  text-align: left;
+  border: none;
+  padding: 10px;
+  background-color: #f7f7f7;
+}

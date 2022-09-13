@@ -1,0 +1,28 @@
+.attach-status {
+  width: 1.55rem;
+  height: 1.55rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attach-row {
+  border-top: 1px solid #f7f7f7;
+}
+
+.attach-row:last-child {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* @media screen and (min-width: 992px) {
+  .attach-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .attach-row {
+    border: 1px solid #f7f7f7;
+    padding: 0.65em 0.75em;
+  }
+} */
